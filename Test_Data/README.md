@@ -6,20 +6,31 @@ In total, we are including 24 short summary generic files calculated by BUSCO fo
 the eukaryotic or the Metazoan lineages, for the proteomes of:
 
 *`Amazona collaria`*
+
 *`Canis lupus dingo`*
+
 *`Canis lupus familiaris`*
+
 *`Chrysemys picta bellii`*
+
 *`Ciona intestinalis`*
+
 *`Fundulus heteroclitus`*
+
 *`Homo sapiens`*
+
 *`Ictalurus punctatus`*
+
 *`Moschus moschiferus`*
+
 *`Nannospalax galili`*
+
 *`Parambassis ranga`*
+
 *`Vulpes vulpes`*
 
 
-The files corresponding to the _Eukaryotic_ lineage are located in the `01_Eukaryotic_Summaries` directory.
+The files corresponding to the _Eukaryotic_ lineage are located in the **`01_Eukaryotic_Summaries`** directory.
 
 Their name are:
 
@@ -38,7 +49,7 @@ short_summary.generic.eukaryota_odb10.Parambassis ranga.txt
 short_summary.generic.eukaryota_odb10.Vulpes vulpes.txt
 ```
 
-The files corresponding to the _Metazoan_ lineage are located in the `02_Metazoan_Summaries` directory.
+The files corresponding to the _Metazoan_ lineage are located in the **`02_Metazoan_Summaries`** directory.
 
 Their name are:
 
@@ -61,7 +72,7 @@ short_summary.generic.metazoa_odb10.Vulpes vulpes.txt
 
 ### **Example_01**
 
-Issuing a command in the `Test_Data/01_Eukaryotic_Summaries` directory:
+Issuing a command in the **`Test_Data/01_Eukaryotic_Summaries`** directory:
 
 ```
 python3 ../../Busco_Plot.v1.0.0.py -wd .
@@ -69,12 +80,12 @@ python3 ../../Busco_Plot.v1.0.0.py -wd .
 
 Would produce three files:
 
-+ The `Busco_Plot_Figure.R` file containing the R code that generated the figure.
-+ The resulting `Busco_Plot_Figure.jpeg` `jpeg` figure file.
-+ The resulting `Busco_Plot_pid.log` log file.
++ The **`Busco_Plot_Figure.R`** file containing the R code that generated the figure.
++ The resulting **`Busco_Plot_Figure.jpeg` `jpeg`** figure file.
++ The resulting **`Busco_Plot_pid.log`** log file.
 
-Note that we did not specify the _`'Eukaryotic Lineage'`_ lineage because this lineage is the default lineage of the script.
-Also note that this command would produce a file in the _`jpeg`_ default file format.
+Note that we did not specify the **`'Eukaryotic Lineage'`** lineage because this lineage is the default lineage of the script.
+Also note that this command would produce a file in the **`jpeg`** default file format.
 
 This command should produce the following figure:
 
@@ -89,8 +100,8 @@ Alternatively, we could have issued, in the same directory, the following comman
 python3 ../../Busco_Plot.v1.0.0.py -wd . -l 'Eukaryotic Lineage' -f png
 ```
 
-This command would will overwrite the already present `Busco_Plot_Figure.R` file.
-It will also print a new `log` file, and generate a new figure file labelled _`Eukaryotic Lineage`_in _`png`_ format.
+This command would will overwrite the already present **`Busco_Plot_Figure.R`** file.
+It will also print a new `log` file, and generate a new figure file labelled **`Eukaryotic Lineage`**_in **`png`** format.
 
 This command should produce the following figure:
 
@@ -98,7 +109,7 @@ This command should produce the following figure:
 
 ### **Example_03**
 
-Similarly, issuing a command in the `Test_Data/02_Metazoan_Summaries` directory:
+Similarly, issuing a command in the **`Test_Data/02_Metazoan_Summaries`** directory:
 
 ```
 python3 ../../Busco_Plot.v1.0.0.py -wd . -l 'Metazoan Lineage'
@@ -106,12 +117,12 @@ python3 ../../Busco_Plot.v1.0.0.py -wd . -l 'Metazoan Lineage'
 
 Would produce three files:
 
-+ The `Busco_Plot_Figure.R` file containing the R code that generated the figure.
-+ The resulting `Busco_Plot_Figure.jpeg` `jpeg` figure file.
-+ The resulting `Busco_Plot_pid.log` log file.
++ The **`Busco_Plot_Figure.R`** file containing the R code that generated the figure.
++ The resulting **`Busco_Plot_Figure.jpeg jpeg`** figure file.
++ The resulting **`Busco_Plot_pid.log`** log file.
 
-Note that, in this case, we must specify the _`'Metazoan Lineage'`_ lineage because the default lineage for the script is _`"Eukaryotic'`_.
-Also note that this command would produce a file in the _`jpeg`_ default file format.
+Note that, in this case, we must specify the **`'Metazoan Lineage'`** lineage because the default lineage for the script is _`"Eukaryotic'`_.
+Also note that this command would produce a file in the **`jpeg`** default file format.
 
 This command should produce the following figure:
 
