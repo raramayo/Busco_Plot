@@ -6,20 +6,18 @@ In total, we are including 24 short summary generic files calculated by BUSCO fo
 the eukaryotic or the Metazoan lineages, for the proteomes of:
 
 *`Amazona collaria`*
+*`Canis lupus dingo`*
+*`Canis lupus familiaris`*
+*`Chrysemys picta bellii`*
+*`Ciona intestinalis`*
+*`Fundulus heteroclitus`*
+*`Homo sapiens`*
+*`Ictalurus punctatus`*
+*`Moschus moschiferus`*
+*`Nannospalax galili`*
+*`Parambassis ranga`*
+*`Vulpes vulpes`*
 
-*```
-Canis lupus dingo
-Canis lupus familiaris
-Chrysemys picta bellii
-Ciona intestinalis
-Fundulus heteroclitus
-Homo sapiens
-Ictalurus punctatus
-Moschus moschiferus
-Nannospalax galili
-Parambassis ranga
-Vulpes vulpes
-```*
 
 The files corresponding to the _Eukaryotic_ lineage are located in the `01_Eukaryotic_Summaries` directory.
 
