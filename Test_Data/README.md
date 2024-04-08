@@ -3,7 +3,7 @@
 ## **Test Data**
 
 In total, we are including 24 short summary generic files calculated by BUSCO for either
-the eukaryotic or the Metazoan lineages, for the proteomes of:
+the *`'Eukaryotic'`* or the *`'Metazoan'`* lineages, for the proteomes of:
 
 *`Amazona collaria`*
 
@@ -30,7 +30,7 @@ the eukaryotic or the Metazoan lineages, for the proteomes of:
 *`Vulpes vulpes`*
 
 
-The files corresponding to the _Eukaryotic_ lineage are located in the **`01_Eukaryotic_Summaries`** directory.
+The files corresponding to the *`Eukaryotic`* lineage are located in the **`01_Eukaryotic_Summaries`** directory.
 
 Their name are:
 
@@ -49,7 +49,7 @@ short_summary.generic.eukaryota_odb10.Parambassis ranga.txt
 short_summary.generic.eukaryota_odb10.Vulpes vulpes.txt
 ```
 
-The files corresponding to the _Metazoan_ lineage are located in the **`02_Metazoan_Summaries`** directory.
+The files corresponding to the *`'Metazoan'`* lineage are located in the **`02_Metazoan_Summaries`** directory.
 
 Their name are:
 
