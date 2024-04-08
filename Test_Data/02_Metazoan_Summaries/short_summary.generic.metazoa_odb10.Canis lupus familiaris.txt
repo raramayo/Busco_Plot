@@ -1,0 +1,15 @@
+# BUSCO version is: 3.0.2 
+# The lineage dataset is: metazoa_odb10 (Creation date: 2020-09-10, number of species: 65, number of BUSCOs: 954)
+# To reproduce this run: python /scratch/user/galaxy/kaiser/dependencies/_conda/envs/mulled-v1-3f2a3d49685dbc0d497669c867fe9c99936bdd2cb6bf90dc9f69410b22142fee/bin/run_BUSCO.py -i /scratch/user/galaxy/kaiser/files/037/dataset_37871.dat -o busco_galaxy -l /general/sw/hprc/galaxy/kaiser/galaxy/tool-data/busco/metazoa_odb10.2020-09-10/metazoa_odb10.2020-09-10/ -m proteins -c 1 -e 0.01 -z
+#
+# Summarized benchmarking in BUSCO notation for file /scratch/user/galaxy/kaiser/files/037/dataset_37871.dat
+# BUSCO was run in mode: proteins
+
+	C:99.1%[S:53.5%,D:45.6%],F:0.5%,M:0.4%,n:954
+
+	945	Complete BUSCOs (C)
+	510	Complete and single-copy BUSCOs (S)
+	435	Complete and duplicated BUSCOs (D)
+	5	Fragmented BUSCOs (F)
+	4	Missing BUSCOs (M)
+	954	Total BUSCO groups searched

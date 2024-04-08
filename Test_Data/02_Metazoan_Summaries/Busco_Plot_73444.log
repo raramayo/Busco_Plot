@@ -1,0 +1,30 @@
+2024-04-08 12:16:37 INFO:__main__	****************** Start plot generation at 04/08/2024 12:16:37 ******************
+2024-04-08 12:16:37 INFO:__main__	Load data ...
+2024-04-08 12:16:37 INFO:__main__	Loaded ./short_summary.generic.metazoa_odb10.Fundulus heteroclitus.txt successfully
+2024-04-08 12:16:37 INFO:__main__	Loaded ./short_summary.generic.metazoa_odb10.Chrysemys picta bellii.txt successfully
+2024-04-08 12:16:37 INFO:__main__	Loaded ./short_summary.generic.metazoa_odb10.Ciona intestinalis.txt successfully
+2024-04-08 12:16:37 INFO:__main__	Loaded ./short_summary.generic.metazoa_odb10.Nannospalax galili.txt successfully
+2024-04-08 12:16:37 INFO:__main__	Loaded ./short_summary.generic.metazoa_odb10.Canis lupus dingo.txt successfully
+2024-04-08 12:16:37 INFO:__main__	Loaded ./short_summary.generic.metazoa_odb10.Ictalurus punctatus.txt successfully
+2024-04-08 12:16:37 INFO:__main__	Loaded ./short_summary.generic.metazoa_odb10.Amazona collaria.txt successfully
+2024-04-08 12:16:37 INFO:__main__	Loaded ./short_summary.generic.metazoa_odb10.Vulpes vulpes.txt successfully
+2024-04-08 12:16:37 INFO:__main__	Loaded ./short_summary.generic.metazoa_odb10.Parambassis ranga.txt successfully
+2024-04-08 12:16:37 INFO:__main__	Loaded ./short_summary.generic.metazoa_odb10.Moschus moschiferus.txt successfully
+2024-04-08 12:16:37 INFO:__main__	Loaded ./short_summary.generic.metazoa_odb10.Canis lupus familiaris.txt successfully
+2024-04-08 12:16:37 INFO:__main__	Loaded ./short_summary.generic.metazoa_odb10.Homo sapiens.txt successfully
+2024-04-08 12:16:37 INFO:__main__	Generate the R code ...
+2024-04-08 12:16:37 INFO:__main__	Run the R code ...
+2024-04-08 12:16:38 INFO:__main__	
+[1] "Plotting the figure ..."
+null device 
+          1 
+[1] "Done"
+
+2024-04-08 12:16:38 ERROR:__main__	
+Loading required package: Cairo
+Loading required package: ggplot2
+Loading required package: grid
+
+2024-04-08 12:16:38 INFO:__main__	Plot generation done. Total running time: 1.119736671447754 seconds
+2024-04-08 12:16:38 INFO:__main__	Results written in ./
+

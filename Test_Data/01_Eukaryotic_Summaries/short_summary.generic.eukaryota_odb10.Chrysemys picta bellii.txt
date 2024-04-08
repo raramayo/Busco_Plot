@@ -1,0 +1,15 @@
+# BUSCO version is: 3.0.2 
+# The lineage dataset is: eukaryota_odb10 (Creation date: 2020-09-10, number of species: 70, number of BUSCOs: 255)
+# To reproduce this run: python /scratch/user/galaxy/kaiser/dependencies/_conda/envs/mulled-v1-3f2a3d49685dbc0d497669c867fe9c99936bdd2cb6bf90dc9f69410b22142fee/bin/run_BUSCO.py -i /scratch/user/galaxy/kaiser/files/038/dataset_38662.dat -o busco_galaxy -l /general/sw/hprc/galaxy/kaiser/galaxy/tool-data/busco/eukaryota_odb10.2020-09-10/eukaryota_odb10.2020-09-10/ -m proteins -c 1 -e 0.01 -z
+#
+# Summarized benchmarking in BUSCO notation for file /scratch/user/galaxy/kaiser/files/038/dataset_38662.dat
+# BUSCO was run in mode: proteins
+
+	C:97.6%[S:63.9%,D:33.7%],F:2.4%,M:-0.0%,n:255
+
+	249	Complete BUSCOs (C)
+	163	Complete and single-copy BUSCOs (S)
+	86	Complete and duplicated BUSCOs (D)
+	6	Fragmented BUSCOs (F)
+	0	Missing BUSCOs (M)
+	255	Total BUSCO groups searched
