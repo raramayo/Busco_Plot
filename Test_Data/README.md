@@ -5,10 +5,10 @@
 In total, we are including 24 short summary generic files calculated by BUSCO for either
 the eukaryotic or the Metazoan lineages, for the proteomes of:
 
-`_Amazona collaria_`
+`*Amazona collaria*`
 
 ```
-Canis lupus dingo
+*Canis lupus dingo*
 Canis lupus familiaris
 Chrysemys picta bellii
 Ciona intestinalis
