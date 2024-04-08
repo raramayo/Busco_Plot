@@ -121,7 +121,7 @@ Would produce three files:
 + The resulting **`Busco_Plot_Figure.jpeg jpeg`** figure file.
 + The resulting **`Busco_Plot_pid.log`** log file.
 
-Note that, in this case, we must specify the **`'Metazoan Lineage'`** lineage because the default lineage for the script is **`'Eukaryotic'`**.
+Note that, in this case, we must specify the **`'Metazoan Lineage'`** lineage because the default lineage for the script is *`'Eukaryotic'`*.
 Also note that this command would produce a file in the **`jpeg`** default file format.
 
 This command should produce the following figure:
