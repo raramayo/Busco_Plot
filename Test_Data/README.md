@@ -101,7 +101,7 @@ python3 ../../Busco_Plot.v1.0.0.py -wd . -l 'Eukaryotic Lineage' -f png
 ```
 
 This command would will overwrite the already present **`Busco_Plot_Figure.R`** file.
-It will also print a new `log` file, and generate a new figure file labelled **`Eukaryotic Lineage`**_in **`png`** format.
+It will also print a new **`log`** file, and generate a new figure file labelled **`Eukaryotic Lineage`**_in **`png`** format.
 
 This command should produce the following figure:
 
@@ -121,7 +121,7 @@ Would produce three files:
 + The resulting **`Busco_Plot_Figure.jpeg jpeg`** figure file.
 + The resulting **`Busco_Plot_pid.log`** log file.
 
-Note that, in this case, we must specify the **`'Metazoan Lineage'`** lineage because the default lineage for the script is _`"Eukaryotic'`_.
+Note that, in this case, we must specify the **`'Metazoan Lineage'`** lineage because the default lineage for the script is **`'Eukaryotic'`**.
 Also note that this command would produce a file in the **`jpeg`** default file format.
 
 This command should produce the following figure:
